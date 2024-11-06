@@ -1,0 +1,21 @@
+└─$ cat seasons.txt 
+January
+February
+March
+April
+May
+June
+July
+August
+September
+October
+November
+December
+
+john --wordlist=seasons.txt --rules=Season+Years+! --stdout > Season+Years+Char.txt
+
+john --wordlist=seasons.txt --rules=Season+Years+Char --stdout > Season+Years+Charss.txt
+
+john --wordlist=seasons.txt --rules=Season+Years+123 --stdout > Season+Years+Char+123.txt
+
+  
